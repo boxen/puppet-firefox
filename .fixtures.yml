@@ -1,3 +1,5 @@
 fixtures:
   symlinks:
+    "firefox-nightly": "#{source_dir}"
     "firefox": "#{source_dir}"
+    
