@@ -2,7 +2,7 @@
 #
 # Examples
 #
-#   include firefox::nightly 
+#   include firefox::nightly
 class firefox::nightly ($locale = 'en-US'){
   package { 'Firefox-Nightly':
     provider   => 'appdmg',
