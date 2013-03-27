@@ -3,7 +3,13 @@
 ## Usage
 
 ```puppet
+
+# from the stable channel
 include firefox
+
+# from the nightly channel
+include firefox::nightly 
+
 ```
 
 ## Required Puppet Modules

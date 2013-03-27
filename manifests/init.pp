@@ -1,3 +1,8 @@
+# Public: Install Firefox to /Applications.
+#
+# Examples
+#
+#   include firefox
 class firefox ($locale = 'en-US'){
   package { 'Firefox':
     provider   => 'appdmg',
