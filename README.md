@@ -1,3 +1,6 @@
+[![Build
+Status](https://travis-ci.org/boxen/puppet-firefox.png?branch=master)](https://travis-ci.org/boxen/puppet-firefox)
+
 # Firefox
 
 ## Usage
@@ -8,7 +11,7 @@
 include firefox
 
 # from the nightly channel
-include firefox::nightly 
+include firefox::nightly
 
 ```
 
