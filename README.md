@@ -1,7 +1,7 @@
-[![Build
-Status](https://travis-ci.org/boxen/puppet-firefox.png?branch=master)](https://travis-ci.org/boxen/puppet-firefox)
 
 # Firefox
+[![Build
+Status](https://travis-ci.org/boxen/puppet-firefox.png?branch=master)](https://travis-ci.org/boxen/puppet-firefox)
 
 ## Usage
 
@@ -21,5 +21,5 @@ include firefox::nightly
 
 ## Development
 
-Write code. Run `rake build` to test it. Check the `script`
+Write code. Run `script/cibuild` to test it. Check the `script`
 directory for other useful tools.
