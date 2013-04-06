@@ -1,5 +1,5 @@
 ---
-script: "rake build"
-gemfile: "Gemfile"
+script: "./script/cibuild"
+gemfile: "this/does/not/exist"
 rvm:
   - "1.8.7"

@@ -1,4 +1,0 @@
-fixtures:
-  symlinks:
-    "firefox": "#{source_dir}"
-    
