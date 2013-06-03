@@ -7,11 +7,14 @@ Status](https://travis-ci.org/boxen/puppet-firefox.png?branch=master)](https://t
 
 ```puppet
 
-# from the stable channel
+# for release, beta, aurora, and nightly
 include firefox
 
-# from the nightly channel
+# from a specific channel, name it directly
 include firefox::nightly
+
+# bonus! UX nightly builds
+include firefox::ux
 
 ```
 

@@ -4,8 +4,9 @@
 #
 #   include firefox
 class firefox ($locale = 'en-US'){
-  package { 'Firefox':
-    source   => "http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/20.0/mac/${locale}/Firefox%2020.0.dmg",
-    provider => 'appdmg'
-  }
+  include nightly
+  include aurora
+  include beta
+  include release
+  # ux by request only
 }
