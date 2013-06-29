@@ -3,10 +3,9 @@
 # Examples
 #
 #   include firefox
-class firefox ($locale = 'en-US'){
-  include nightly
-  include aurora
-  include beta
-  include release
-  # ux by request only
+class firefox($locale = 'en-US'){
+  package { 'Firefox':
+    source   => "http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/22.0/mac/${locale}/Firefox%2022.0.dmg",
+    provider => 'appdmg'
+  }
 }
