@@ -1,4 +1,3 @@
-
 # Firefox
 [![Build
 Status](https://travis-ci.org/boxen/puppet-firefox.png?branch=master)](https://travis-ci.org/boxen/puppet-firefox)
@@ -7,7 +6,7 @@ Status](https://travis-ci.org/boxen/puppet-firefox.png?branch=master)](https://t
 
 ```puppet
 
-# for release, beta, aurora, and nightly
+# for release channel
 include firefox
 
 # from a specific channel, name it directly
