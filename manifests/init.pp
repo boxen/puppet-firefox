@@ -3,7 +3,7 @@
 # Examples
 #
 #   include firefox
-class firefox($locale = 'en-US', $version = '23.0.1'){
+class firefox($locale = 'en-US', $version = '25.0'){
   package { 'Firefox':
     source   => "http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/${version}/mac/${locale}/Firefox%20${version}.dmg",
     provider => 'appdmg'
