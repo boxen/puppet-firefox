@@ -11,6 +11,7 @@ include firefox
 
 # from a specific channel, name it directly
 include firefox::nightly
+# firefox::beta & firefox::aurora available
 
 # bonus! UX nightly builds
 include firefox::ux
