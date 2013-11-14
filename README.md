@@ -16,6 +16,10 @@ include firefox::nightly
 # bonus! UX nightly builds
 include firefox::ux
 
+# for a custom version of the release channel
+class { 'firefox':
+  version => '26.0b1'
+}
 ```
 
 ## Required Puppet Modules
