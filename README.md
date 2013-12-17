@@ -13,9 +13,6 @@ include firefox
 include firefox::nightly
 # firefox::beta & firefox::aurora available
 
-# bonus! UX nightly builds
-include firefox::ux
-
 # for a custom version of the release channel
 class { 'firefox':
   version => '26.0b1'

@@ -4,7 +4,7 @@ describe 'firefox::nightly' do
   it do
     should contain_class('firefox::nightly')
     should contain_package('Firefox-Nightly').with({
-      :source   => 'http://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-trunk/firefox-28.0a1.en-US.mac.dmg',
+      :source   => 'http://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-trunk/firefox-29.0a1.en-US.mac.dmg',
       :provider => 'appdmg'
     })
   end
