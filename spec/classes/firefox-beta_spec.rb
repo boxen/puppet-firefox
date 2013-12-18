@@ -4,7 +4,7 @@ describe 'firefox::beta' do
   it do
     should contain_class('firefox::beta')
     should contain_package('Firefox-Beta').with({
-      :source   => 'http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/latest-beta/mac/en-US/Firefox%2027.0b1.dmg',
+      :source   => 'http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/27.0b2/mac/en-US/Firefox%2027.0b2.dmg',
       :provider => 'appdmg'
     })
   end
