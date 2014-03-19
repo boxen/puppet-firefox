@@ -5,7 +5,7 @@
 #   include firefox::beta
 class firefox::beta ($locale = 'en-US'){
   package { 'Firefox-Beta':
-    source   => "http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/28.0b1/mac/${locale}/Firefox%2028.0b1.dmg",
+    source   => "http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/29.0b1/mac/${locale}/Firefox%2029.0b1.dmg",
     provider => 'appdmg'
   }
 }
