@@ -3,9 +3,9 @@
 # Examples
 #
 #   include firefox::nightly
-class firefox::nightly ($locale = 'en-US'){
+class firefox::nightly ($locale = 'en-US', $version = '32.0a1'){
   package { 'Firefox-Nightly':
-    source   => "http://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-trunk/firefox-31.0a1.${locale}.mac.dmg",
+    source   => "http://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-trunk/firefox-${version}.${locale}.mac.dmg",
     provider => 'appdmg'
   }
 }
