@@ -3,7 +3,7 @@
 # Examples
 #
 #   include firefox::aurora
-class firefox::aurora ($locale = 'en-US', $version = '31.0a2'){
+class firefox::aurora ($locale = 'en-US', $version = '33.0a2'){
   package { 'Firefox-Aurora':
     source   => "http://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-mozilla-aurora/firefox-${version}.${locale}.mac.dmg",
     provider => 'appdmg'
