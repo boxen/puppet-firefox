@@ -1,29 +1,7 @@
 # Firefox
-[![Build
-Status](https://travis-ci.org/boxen/puppet-firefox.png?branch=master)](https://travis-ci.org/boxen/puppet-firefox)
 
-## Usage
+Deprecated in favour of [brewcask][1] and [Boxen's in built support for
+homebrew/brewcask][2].
 
-```puppet
-
-# for release channel
-include firefox
-
-# from a specific channel, name it directly
-include firefox::nightly
-# firefox::beta & firefox::aurora available
-
-# for a custom version of the release channel
-class { 'firefox':
-  version => '26.0b1'
-}
-```
-
-## Required Puppet Modules
-
-* `boxen`
-
-## Development
-
-Write code. Run `script/cibuild` to test it. Check the `script`
-directory for other useful tools.
+[1]: https://caskroom.github.io/
+[2]: https://github.com/boxen/puppet-boxen/blob/master/manifests/personal.pp#L14-L17
